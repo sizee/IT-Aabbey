@@ -22,12 +22,7 @@ html{
     background-color:#fafafa;
 }
 /*********************************************/
-a{
-    margin:0;
-    padding:0;
-    text-decoration: none;
-    color:white;
-}
+
 h2{
     margin:0;
     padding:0;
@@ -90,6 +85,13 @@ h2{
     width:62.5%;
     height:8.6%;
     margin:0 auto;
+}
+.footer_up .left a,
+.footer_up .middle a{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color:white;
 }
 .footer_up .left, .footer_up .middle{
     float:left;

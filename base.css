@@ -9,6 +9,9 @@
         max-width:100%;
         margin:0 auto;
     }
+   .mainbody  .company li{
+       width:27rem;
+   }
     .content{
         width:75%;
     }
