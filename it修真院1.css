@@ -1,7 +1,7 @@
 html,body,ul,li,p{
     margin:0;
     padding:0;
-    border:none;
+    /*! border:none; */
     list-style: none;
     text-decoration: none;
     color:white;
@@ -25,7 +25,7 @@ html{
 /***************************************/
 .mainbody{
     width:100%;
-    border:1px solid blueviolet;
+  /*  border:1px solid blueviolet;*/
     overflow:hidden;
     color:black;
 }
@@ -33,24 +33,25 @@ html{
     width:62.5%;
     padding:0;
     margin:7% auto;
-    border:1px solid red;
+   /* border:1px solid red;*/
    position:relative;
     height:23.4rem;
 }
  .eff{
      width:20%;
      height:23.5rem;
-     border:1px solid red;
+   /*  border:1px solid red;*/
      background:url(技能树首页---高效2.png) no-repeat center 0;
      padding:0 2rem;
      position:absolute;
      top:0;
      left:0;
+     
  }
  .norm{
      width:20%;
      height:23.5rem;
-     border:1px solid red;
+   /*  border:1px solid red;*/
      background:url(技能树首页---书籍2.png) no-repeat center 0;
      padding:0 2rem;
      position:absolute;
@@ -61,7 +62,7 @@ html{
 .con {
     width:20%;
     height:23.5rem;
-    border:1px solid red;
+   /* border:1px solid red;*/
     background:url(技能树首页---人脉2.png) no-repeat center 0;
     padding:0 2rem;
     position:absolute;
@@ -71,11 +72,16 @@ html{
 .inform{
     width:15%;
     height:23.5rem;
-    border:1px solid red;
+  /*  border:1px solid red;*/
     padding:0 2rem;
     position:absolute;
     top:0;
     right:0;
+}
+.eff:hover, 
+.norm:hover, 
+.con:hover{
+    box-shadow:1px 1px 3px #999;
 }
  .eff h2, .norm h2, .con h2{
      color:black;
@@ -90,10 +96,11 @@ html{
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin:3rem 0 0 0;
+    text-align:center;
 }
 .inform img{
-    width:0.68%;
-    height:0.68%;
+    width:1.3rem;
+    height:1.3rem;
     padding-top:3rem;
 
 }
@@ -112,13 +119,13 @@ html{
     width:62.5%;
     height:100%;
     margin:0 auto ;
-    border:1px solid red;
+   /* border:1px solid red;*/
 }
 .study li{
     display: inline-block;
     vertical-align:middle;
-    margin: 2.08% 0.45% 0 0;
-    border:1px solid red;
+    margin: 2.08% 1.45% 0 0;
+  /*  border:1px solid red;*/
 
 }
 .study .type1{
@@ -138,7 +145,7 @@ html{
     width:62.5%;
     margin: 0 auto;
     overflow: hidden;
-    border:1px solid red;
+ /*   border:1px solid red;*/
     position:relative;
     height:37.3rem;
 }
@@ -147,9 +154,8 @@ html{
     width:22.3%;
 }
 .show-one{
-    float:left;
     height:36.9rem;
-    border:1px solid red;
+   /* border:1px solid red;*/
     background:url(技能树首页---头像1.png) no-repeat center 2rem;
     padding: 0 ;
     margin-right:2rem;
@@ -158,11 +164,11 @@ html{
     left:0;
     width:23.5%;
     border-radius:0.5rem;
+    background-color: white;
 }
 .show-two{
-    float:left;
     height:36.9rem;
-    border:1px solid red;
+   /* border:1px solid red;*/
     background:url(技能树首页---头像2.png) no-repeat center 2rem;
     padding: 0;
     margin:0 2rem;
@@ -171,12 +177,11 @@ html{
     left:23%;
     width:23.5%;
     border-radius:0.5rem;
-
+ background-color: white;
 }
 .show-three{
-    float:right;
-    height:36.9rem;
-    border:1px solid red;
+   height:36.9rem;
+/*    border:1px solid red;*/
     background:url(技能树首页---头像3.png) no-repeat center 2rem;
     padding: 0;
     margin-left:2rem;
@@ -185,12 +190,11 @@ html{
     right:26%;
     width:23.5%;
     border-radius:0.5rem;
-
+ background-color: white;
 }
 .show-four{
-    float:right;
     height:36.9rem;
-    border:1px solid red;
+   /* border:1px solid red;*/
     background:url(技能树首页---头像4.png) no-repeat center 2rem;
     padding: 0;
     margin:0 2rem;
@@ -199,15 +203,21 @@ html{
     right:-2%;
     width:23.5%;
     border-radius:0.5rem;
-
+     background-color: white;
+}
+.show-one:hover,
+.show-two:hover,
+.show-three:hover,
+.show-four:hover{
+     box-shadow:1px 1px 3px #999;
 }
 .show h2{
-    width:55.15% ;
+    width:55.15%;
     color: black;
     font-family: Microsoft YaHei, serif;
     font-size: 1.8rem;
     text-align: center;
-    padding: 13.5rem 0 0 0;
+    padding: 17rem 0 0 0;
     margin: 0 auto;
 }
 
@@ -219,11 +229,11 @@ html{
     line-height: 2.8rem;
     margin: 6.25% auto 2.34% auto;
     text-align: center;
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
 }
 .img1{
     width:100%;
-    border:1px solid greenyellow;
+  /*  border:1px solid greenyellow;*/
     text-align: center;
 }
 .img1 img{
@@ -234,31 +244,35 @@ html{
 .mainbody .company{
 
     width:62.5%;
-    height:17.8rem;
+    height:auto;
     margin:0 auto;
-    border:1px solid red;
+  /*  border:1px solid red;*/
     overflow: hidden;
     text-align: center;
 }
 .company li {
-    width:19%;
+    width:21rem;
     height:17.8rem;
-    line-height: 21.8rem;
+    line-height: 23.8rem;
     text-align: center;
     display:inline-block;
     background-color: white;
-    border:1px solid red;
+    margin-top:2rem;
+/*    border:1px solid red;*/
 }
 .company img{
    width:auto;
     height:auto;
 }
+.company li:hover{
+    box-shadow:2px 3px 4px #999;
+}
 .mainbody .friend{
    width:62.5%;
     height:100%;
     margin:0 auto;
-    border:1px solid red;
-    overflow: hidden;
+  /*  border:1px solid red;*/
+   /* overflow: hidden;*/
 }
 .friend li{
     font-size: 1.4rem;
@@ -266,9 +280,123 @@ html{
     color:#999;
     list-style: disc inside;
     float: left;
-    border:1px solid red;
+  /*  border:1px solid red;*/
     margin:0 1% 0 1.6%;
 }
 .friend a{
     color:#999;
+}
+@media screen and  (max-width:1920px)
+{
+    html{
+        font-size:55%;
+
+    }
+    .wap
+    {
+        max-width:100%;
+        margin:0 auto;
+    }
+    .mainbody .main_up,
+    .mainbody .show,
+    .mainbody .company,
+    .mainbody .friend,
+    .mainbody .study
+    {
+        width:75%;
+    }
+    .study li {
+    margin: 2.08% 2.1% 0 0;
+}
+}
+@media screen and (max-width:1200px)
+{
+    html{
+        font-size:50%;
+    }
+    .wap
+    {
+        max-width:100%;
+        margin:0 auto;
+    }
+   
+    .mainbody .main_up,
+    .mainbody .show,
+    .mainbody .company,
+    .mainbody .friend
+    {
+        width:100%;
+    }
+    .mainbody .study
+    {width:90%}
+}
+@media screen and (max-width:640px)
+{
+    .wap{
+        width:100%;
+        max-width:640px;
+        
+    }
+ 
+    .mainbody .main_up{
+        width:100%;
+        max-width:640px;
+        height:48rem
+    }
+    .mainbody .main_up .eff{
+        position: absolute;
+        top:0;
+        left:0;
+        width:40%;
+    }
+    .mainbody .main_up .norm{
+        width:40%;
+        position:absolute;
+        top:0;
+        left:50%;
+    }
+       .mainbody .main_up .con{
+        width:40%;
+        position:absolute;
+        top:24rem;
+        left:0;
+    }
+       .mainbody .main_up .inform{
+        width:40%;
+        position:absolute;
+        top:20rem;
+        left:50%;
+           text-align: center;
+    }
+    .mainbody .inform span{
+        text-align: center;
+    }
+    .mainbody .show{
+        height:78rem;
+    }
+.mainbody .show-one
+    {
+        width:48%;
+    }
+    .mainbody .show-two
+    {
+        width:48%;
+        left:auto;
+        right:0;
+    }
+    .mainbody .show-three
+    {
+        margin:0;
+        width:48%;
+        top:38rem;
+        left:0;
+        
+    }
+    .mainbody .show-four{
+        margin-right:3.5rem;
+        width:48%;
+        top:38rem;
+        
+    }
+   
 }
