@@ -35,10 +35,10 @@
     .mainbody .main_up,
     .mainbody .show,
     .mainbody .company,
-    .mainbody .friend
-    {
+    .mainbody .friend {
         width:100%;
     }
-    .mainbody .study
-    {width:90%}
+    .mainbody .study {
+        width:90%
+    }
 }

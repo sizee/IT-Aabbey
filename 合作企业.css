@@ -36,7 +36,7 @@ html{
     width:62.5%;
     margin:0 auto 8rem auto;
     position:relative;
-    border:1px solid red;
+  /*  border:1px solid red;*/
 }
 .content .left{
     position:absolute;
@@ -71,9 +71,11 @@ text-align: left;
     color:#29b078;
     font-size: 1.6rem;
     line-height: 1.122rem;
+    text-decoration:none;
 }
  .left li:hover,
- .left .active
+ .left .active,
+ .left a:hover
  {
     list-style-image:url(战略合作企业---orangecircle2.png);
     color:orange;
@@ -100,3 +102,4 @@ text-align: left;
     margin:4rem 5rem 2rem 5rem;
 
 }
+
