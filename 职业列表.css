@@ -65,11 +65,21 @@ color:#fafafa;
 #mainbody .front .box{
     overflow: hidden;
     width:33rem;
+    height:39rem;
     background-color: white;
     border-radius:0.5rem;
     box-shadow: 1px 1px 3px #999;
     margin:5rem 3.3rem;
     float:left;
+}
+#mainbody .front .boxhover {
+    width:33rem;
+    height:39rem;
+    margin-top:-39rem;
+    background-color: #999;
+}
+#mainbody .front a:hover{
+    margin-top:39rem;
 }
 #mainbody .front .box dl{
 }
@@ -171,18 +181,14 @@ color:#fafafa;
     color:#a9a9a9;
     font-weight:normal;
     text-align: center;
-    border:1px solid #edf1f2;
     line-height: 3rem;
     margin-left:0.5rem;
 }
 @media screen and (max-width:1920px){
-    html{
-        width:100%;
-    }
     #mainbody{
         width:75%;
     }
     #mainbody .front .box{
-        margin:5rem 4.3rem;
+        margin:5% 4% 5% 0;
     }
 }
